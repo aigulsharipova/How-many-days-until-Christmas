@@ -1,5 +1,8 @@
 body {
   background-image: url(./santa.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(233, 60, 62);
 }
 .heading {
   display: flex;
