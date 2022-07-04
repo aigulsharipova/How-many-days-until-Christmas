@@ -16,7 +16,7 @@ h1 {
 }
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .christmas {
