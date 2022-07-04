@@ -27,4 +27,5 @@ if (diff <= 0) {
   document.querySelector('.seconds').textContent = 0;
   clearInterval()
 }}
+let timerID = setInterval(christmasCountdown, 1000)
 christmasCountdown();
