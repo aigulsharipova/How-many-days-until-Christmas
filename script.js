@@ -13,6 +13,12 @@ function christmasCountdown () {
 
   const displayHours = Math.floor((diff%msInDay) / msInHour);
   document.querySelector('.hours').textContent = displayHours;
+
+  const displayMin = Math.floor((diff%msInHour) / msInMinute);
+  document.querySelector('.minutes').textContent = displayMin;
+
+  const displaySec = Math.floor((diff%msInMinute) / msInSecond);
+  document.querySelector('.seconds').textContent = displaySec;
 }
 
 christmasCountdown();
