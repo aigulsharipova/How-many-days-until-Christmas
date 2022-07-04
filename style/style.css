@@ -36,3 +36,7 @@ h3 {
   font-size: 30px;
   font-family: 'Oswald', sans-serif;
 }
+.days, .hours, .minutes, .seconds {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+}
