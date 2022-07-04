@@ -14,3 +14,8 @@ h1 {
   padding: 20px;
   border: 3px solid black;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
