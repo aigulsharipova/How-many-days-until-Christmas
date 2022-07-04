@@ -19,3 +19,10 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
 }
+.christmas {
+  background-color: rgba(251, 248, 249, 0.82);
+  height: 300px;
+  width: 200px;
+  margin-top: 50px;
+  border: 3px solid black;
+}
