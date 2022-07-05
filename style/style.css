@@ -2,41 +2,33 @@ body {
   background-image: url(./santa.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(233, 60, 62);
-}
+  background-color: rgba(233, 60, 62);}
 .heading {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center;}
 h1 {
   font-size: 60px;
   background-color: rgba(251, 248, 249, 0.9);
   padding: 20px;
   border: 3px solid black;
-  font-family: 'Oswald', sans-serif;
-}
+  font-family: 'Oswald', sans-serif;}
 .container {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap;}
 .christmas {
   background-color: rgba(251, 248, 249, 0.82);
   height: 300px;
   width: 200px;
   margin-top: 200px;
-  border: 3px solid black;
-}
+  border: 3px solid black;}
 .block {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center;}
 h3 {
   font-size: 30px;
-  font-family: 'Oswald', sans-serif;
-}
+  font-family: 'Oswald', sans-serif;}
 .days, .hours, .minutes, .seconds {
   font-size: 40px;
-  font-family: 'Oswald', sans-serif;
-}
+  font-family: 'Oswald', sans-serif;}
