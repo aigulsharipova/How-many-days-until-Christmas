@@ -26,6 +26,7 @@ if (diff <= 0) {
   document.querySelector('.minutes').textContent = 0;
   document.querySelector('.seconds').textContent = 0;
   clearInterval(timerID);
+  merryChrismas();
 }
 }
 
