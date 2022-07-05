@@ -38,3 +38,7 @@ h3 {
     color: red;
     font-family: 'Oswald', sans-serif;
   }
+  #button {
+    margin-left: 150px;
+    border: none;
+  }
