@@ -25,10 +25,14 @@ if (diff <= 0) {
   document.querySelector('.hours').textContent = 0;
   document.querySelector('.minutes').textContent = 0;
   document.querySelector('.seconds').textContent = 0;
-
   clearInterval(timerID);
 }
 }
 
 let timerID = setInterval(christmasCountdown, 1000)
 
+function merryChrismas() {
+  const heading = document.querySelector('h1');
+  heading.textContent = "MERRY CHRISTMAS!!! HO-HO-HO";
+  heading.classList.add('red');
+}
