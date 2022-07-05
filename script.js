@@ -32,4 +32,3 @@ if (diff <= 0) {
 
 let timerID = setInterval(christmasCountdown, 1000)
 
-christmasCountdown();
