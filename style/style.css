@@ -42,3 +42,14 @@ h3 {
     margin-left: 150px;
     border: none;
   }
+
+  @media all and (max-width: 800px){
+  .h1{
+   font-size: 40px;
+  }
+}
+@media all and (max-width: 500px){
+  .h1{
+   font-size: 30px;
+  }
+}
