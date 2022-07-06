@@ -37,3 +37,8 @@ function merryChrismas() {
   heading.textContent = "MERRY CHRISTMAS!!! HO-HO-HO";
   heading.classList.add('red');
 }
+
+const button = document.querySelector('#myButton');
+button.addEventListener('click', function() {
+  document.querySelector('#myAudio').play()
+})
